@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class Blackjack {
 
-    private static final String[] AS = 
+    private static final String[] AS = {"1"};
     private static final String[] FIGURAS = {"J", "Q", "K"};
     private static final String[] CARTAS = { "2", "3", "4", "5", "6", "7", "8", "9", "10"};
 
@@ -15,6 +15,7 @@ public class Blackjack {
         int option = welcomeToGame();
         validateStart(option);
         int carta = startGame();
+
         exitGame();
 
 
